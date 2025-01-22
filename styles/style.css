@@ -265,7 +265,12 @@
     color: white;
     line-height:40px;
 }
-
+marquee{
+    background: greenyellow;
+    padding: 8px 0px;
+    font-weight: bold;
+    color: purple;
+}
 @media screen and (max-width:576px){
     #school{
         display: none;
