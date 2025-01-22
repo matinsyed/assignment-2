@@ -121,4 +121,14 @@
     .horizontal-line{
         display:block
     }
+    .banner{
+        flex-direction: column-reverse;
+        margin: 0px auto;
+    }
+    .vision{
+        text-align:center ;
+    }
+    .banner-img img{
+        width: 100%;
+    }
 }
