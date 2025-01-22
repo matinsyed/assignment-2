@@ -103,10 +103,16 @@
 }
 /* Style for Curriculum section */
 .curriculam, .stories{
-    background-image: url(/images/bg.png);
-    max-width: 1440px;
+    background-image: url(/images/bg.png);    
     margin: 0 auto;
     padding: 60px 0px;
+    text-align: center;
+    max-width: 1440px;
+}
+.curriculam-body, .stories-body{
+    max-width: 1440px;
+    text-align: center;
+    grid-template-rows: 2px;
 }
 .curriculam-heading, .stories-heading h2{
     font-size: 2.9rem;
@@ -232,7 +238,14 @@
 #date-btn-3{
     background: #5D58F0;
 }
-
+.btn-view-all{
+    padding: 10px 35px;
+    border-radius: 12px;
+    color: white;
+    background: black;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
 @media screen and (max-width:576px){
     #school{
         display: none;
