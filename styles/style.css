@@ -181,7 +181,7 @@
                 url('/images/bg.png'); 
 }
 .stories-contriner{
-    margin: 60px auto;
+    margin: 40px auto;
     padding: 60px 0px;
     gap: 20px;    
 }
@@ -207,11 +207,6 @@
 .stories-narration{
    padding: 0 30px 30px 30px; 
 }
-.main-card-content{
-    border: 2px solid purple;
-    background-color: red;
-    override-colors: red;
-}
 .stories-other-card{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -220,6 +215,22 @@
 .stories-card{
     background: white;
     border-radius: 16px;
+}
+.stories-date-btn{
+    width: 175px;
+    height: 45px;
+    border-radius: 45px;
+    margin: -100px 0px 0px 30px;
+    color: white;
+}
+#date-btn-1{
+    background: #3CD8E8;
+}
+#date-btn-2,#date-btn-4,#date-btn-5{
+    background: #95B226;
+}
+#date-btn-3{
+    background: #5D58F0;
 }
 
 @media screen and (max-width:576px){
