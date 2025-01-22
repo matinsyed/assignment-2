@@ -246,6 +246,15 @@
     font-size: 1.25rem;
     font-weight: 700;
 }
+/* Styles for footer */
+.footer{
+    background: #01ACFD;
+    color: white;
+}
+.footer-section{
+    max-width: 1440px;
+    margin: 0px auto;
+}
 @media screen and (max-width:576px){
     #school{
         display: none;
