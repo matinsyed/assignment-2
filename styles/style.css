@@ -51,7 +51,9 @@
 #menu-item-4{
     color: #5D58EF;
 } 
-
+#hamburger-menu{
+    display:none;
+}
 .btn-contact
 {
     max-width: 200px;
@@ -64,7 +66,9 @@
     font-size: 1.25rem;
     font-weight: 600;
 }
-
+.horizontal-line{
+    display: none;
+}
 /* Banner related styles */
 .banner{
     max-width: 1440px;
@@ -104,3 +108,17 @@
     margin: 0 auto;
 }
 
+@media screen and (max-width:576px){
+    #school{
+        display: none;
+    }
+    .btn-contact, .menu{
+        display: none;
+    }
+    #hamburger-menu{
+        display: block;
+    }
+    .horizontal-line{
+        display:block
+    }
+}
