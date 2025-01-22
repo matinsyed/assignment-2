@@ -101,11 +101,125 @@
     font-size: 1.25rem;
     font-weight: 700;
 }
+/* Style for Curriculum section */
 .curriculam, .stories{
     background-image: url(/images/bg.png);
     max-width: 1440px;
-    border: 5px solid navajowhite;
     margin: 0 auto;
+    padding: 60px 0px;
+}
+.curriculam-heading, .stories-heading h2{
+    font-size: 2.9rem;
+    font-weight: 700;    
+    text-align: center;
+    margin: 0px;
+}
+.curriculam-cards-container{
+    margin: 80px auto;
+    gap: 24px;
+}
+.curriculam-cards{
+    border-radius: 18px;
+    padding: 55px 40px;
+    font-size: 1rem;
+    font-weight: 500;    
+}
+.card-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #202020;
+    margin: none;
+}
+.curriculam-cards > p{
+    color: #808080;
+}
+#card-1{
+    text-align: center;
+    border: 1px solid #DEF5FF ;
+    background-image: linear-gradient(#DEF5FF, #FFFFFF);
+}
+#card-2{
+    text-align: center;
+    border: 1px solid #FFF4DC ;    
+    background-image: linear-gradient(#FFF4DC, #FFFFFF);
+}
+#card-3{
+    text-align: center;
+    border: 1px solid #F2E8FF ;    
+    background-image: linear-gradient(#F2E8FF, #FFFFFF);    
+}
+#card-1 a{
+    text-decoration: none;
+    color: #64C8FF;
+}
+#card-2 a{
+    text-decoration: none;
+    color: #F0AA00;
+}
+#card-3 a{
+    text-decoration: none;
+    color: #8700FF;
+}
+.navigation{
+    text-align: center;
+}
+.navigation button{
+    width: 60px;
+    height: 60px;
+    background-color: orange;
+    border: none;
+    border-radius: 50%;
+    color: #FFFFFF;
+}
+
+/* Stories Section Styles */
+.stories{
+    background-image: 
+        linear-gradient(
+                rgba(255, 255, 255, .7) , rgba(254, 163, 1, .3)
+                ), 
+                url('/images/bg.png'); 
+}
+.stories-contriner{
+    margin: 60px auto;
+    padding: 60px 0px;
+    gap: 20px;    
+}
+.stories-main-card{
+    border-radius: 16px;
+    background: white;
+}
+.stories-contriner img{
+    width: 100%;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+.stories-title {
+    padding: 30px;  
+    margin: 0px; 
+    font-size: 1rem;
+    font-weight: 700;
+}
+.stories-main-card > h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.stories-narration{
+   padding: 0 30px 30px 30px; 
+}
+.main-card-content{
+    border: 2px solid purple;
+    background-color: red;
+    override-colors: red;
+}
+.stories-other-card{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.stories-card{
+    background: white;
+    border-radius: 16px;
 }
 
 @media screen and (max-width:576px){
