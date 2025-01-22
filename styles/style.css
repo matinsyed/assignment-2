@@ -250,11 +250,22 @@
 .footer{
     background: #01ACFD;
     color: white;
+    font-size: 1.25rem;
 }
 .footer-section{
     max-width: 1440px;
     margin: 0px auto;
+    padding: 120px 225px 175px 140px;
+    justify-content: space-between;
 }
+.footer-description{
+    max-width: 700px;    
+}
+.footer-menu a{
+    color: white;
+    line-height:40px;
+}
+
 @media screen and (max-width:576px){
     #school{
         display: none;
@@ -277,5 +288,17 @@
     }
     .banner-img img{
         width: 100%;
+    }
+    
+    .curriculam-cards-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .stories-main-card{
+        display: none;
+    }
+    .footer-section{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
     }
 }
