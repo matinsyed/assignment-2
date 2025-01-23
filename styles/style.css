@@ -103,11 +103,10 @@
 }
 /* Style for Curriculum section */
 .curriculam-body{
-    background-image: url(/images/bg.png);    
+    background-image: url(../images/bg.png);    
     margin: 0 auto;
 }
-.curriculam, .stories{
-    /* background-image: url(/images/bg.png);     */
+.curriculam, .stories{    
     margin: 0 auto;
     padding: 60px 0px;
     text-align: center;
@@ -190,7 +189,7 @@
         linear-gradient(
                 rgba(255, 255, 255, .7) , rgba(254, 163, 1, .3)
                 ), 
-                url('/images/bg.png');
+                url('../images/bg.png');
     margin: 0 auto;
 } 
 
