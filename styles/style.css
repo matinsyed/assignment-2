@@ -236,6 +236,7 @@
     height: 45px;
     border-radius: 45px;
     color: white;
+    border: none;
 }
 #date-btn-1{
     background: #3CD8E8;
